@@ -3,6 +3,9 @@
 #include <stdlib.h>
 #include <sys/time.h>
 #include <sys/types.h>
+#include <sys/wait.h>
+#include <string.h>
+#include <unistd.h>
 #include "lab2.h"
 /************************************************************\
  * get_arguments - returns the command line arguments not
